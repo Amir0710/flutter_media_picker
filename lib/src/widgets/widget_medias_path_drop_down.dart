@@ -99,7 +99,7 @@ class MediaPickerDropDown extends StatelessWidget {
         }).toList(),
         onChanged: onChanged,
         isExpanded: false,
-        buttonStyleData: const ButtonStyleData(height: 45, width: 250),
+        buttonStyleData: const FormFieldButtonStyleData(height: 45, width: 250),
         dropdownStyleData: DropdownStyleData(
           width: width ?? 260,
           maxHeight: 350,
